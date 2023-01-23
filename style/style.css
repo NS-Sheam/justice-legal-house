@@ -29,3 +29,16 @@ body{
 .l-sol-text-secondary{
     color: #414040;
 }
+/* ------Banner background image------- */
+.l-sol-banner{
+    background: url(..//images/banner.png);
+    background-size: cover;
+}
+.l-sol-banner h1{
+    font-size: 70px;
+}
+@media only screen and (max-width: 576px) {
+    .l-sol-banner h1 {
+        font-size: 40px;
+    }
+}
