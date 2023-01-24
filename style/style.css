@@ -20,6 +20,8 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* ----All needed bg color and text color------ */
 .l-sol-bg-color-primary {
     background-color: #B68C5A;
 }
@@ -29,6 +31,8 @@ body{
 .l-sol-text-secondary{
     color: #414040;
 }
+/* ----All needed bg color and text color------ */
+/* ------Modal button hover------ */
 .l-sol-modal-button:hover{
     background-color: #ffffff;
     color: #B68C5A !important;
@@ -42,12 +46,15 @@ body{
 .l-sol-banner h1{
     font-size: 70px;
 }
+/* ------Practice area section------ */
 .l-sol-practice-area .col{
     transition: all .5s linear;
 }
 .l-sol-practice-area .col:hover{
     background-color: #E7E7E7;
 }
+
+/* ------Client section slider------ */
 .l-sol-client-say{
     background: url(..//images/slider-1.jpg);
     background-size: cover;
@@ -63,6 +70,8 @@ body{
     background-size: cover;
     
 }
+/* ------Client section slider------ */
+/* ----FAQ Accordion------ */
 .l-sol-faq-btn-link:after{
     content: '\2212';
     width: 1.25rem;
@@ -99,6 +108,7 @@ body{
   .l-sol-accordion-button.collapsed:after{
     content: '\002B';
   }
+  /* ----Contact section------ */
   .l-sol-contact{
     gap: 1rem;
   }
