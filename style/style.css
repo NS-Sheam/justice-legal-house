@@ -86,6 +86,9 @@ body{
   .l-sol-accordion-button.collapsed:after{
     content: '\002B';
   }
+  .l-sol-contact{
+    gap: 1rem;
+  }
 @media only screen and (max-width: 576px) {
     .l-sol-banner h1 {
         font-size: 40px;
