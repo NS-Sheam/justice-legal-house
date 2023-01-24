@@ -50,6 +50,42 @@ body{
     background-blend-mode: multiply;
     
 }
+.l-sol-faq-btn-link:after{
+    content: '\2212';
+    width: 1.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #e8eeff;
+}
+.l-sol-accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+  }
+  .l-sol-accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "\2212";
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
+  .l-sol-accordion-button.collapsed:after{
+    content: '\002B';
+  }
 @media only screen and (max-width: 576px) {
     .l-sol-banner h1 {
         font-size: 40px;
