@@ -29,6 +29,11 @@ body{
 .l-sol-text-secondary{
     color: #414040;
 }
+.l-sol-modal-button:hover{
+    background-color: #ffffff;
+    color: #B68C5A !important;
+    border: 1px solid #B68C5A;
+}
 /* ------Banner background image------- */
 .l-sol-banner{
     background: url(..//images/banner.png);
@@ -44,10 +49,18 @@ body{
     background-color: #E7E7E7;
 }
 .l-sol-client-say{
-    background: url(..//images/banner.png);
+    background: url(..//images/slider-1.jpg);
     background-size: cover;
-    background-color: rgb(92, 90, 90);
-    background-blend-mode: multiply;
+    
+}
+.l-sol-client-say-second{
+    background: url(..//images/slider-2.jpg);
+    background-size: cover;
+    
+}
+.l-sol-client-say-third{
+    background: url(..//images/slider-3.jpg);
+    background-size: cover;
     
 }
 .l-sol-faq-btn-link:after{
